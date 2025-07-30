@@ -1,8 +1,7 @@
 #include <iostream>
-#include <cmath>    // for power, sqrt
+#include <cmath>
 using namespace std;
 
-// Function declarations
 void showMenu();
 double add(double a, double b);
 double subtract(double a, double b);
@@ -71,7 +70,6 @@ int main() {
     return 0;
 }
 
-// Menu function
 void showMenu() {
     cout << "\n===== Simple Calculator =====\n";
     cout << "1. Addition\n";
@@ -84,7 +82,6 @@ void showMenu() {
     cout << "Choose an option: ";
 }
 
-// Function definitions
 double add(double a, double b) { return a + b; }
 double subtract(double a, double b) { return a - b; }
 double multiply(double a, double b) { return a * b; }
