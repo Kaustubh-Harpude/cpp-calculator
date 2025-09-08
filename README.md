@@ -9,7 +9,16 @@ A beginner-friendly command-line calculator built in C++ to perform basic arithm
 - Error handling (e.g. divide by zero, negative root)
 - Menu-driven interface using loops and switch-case
 
-## 🚀 Getting Started
+## 🔑 Concepts Used:
+- Functions (with prototypes & definitions)
+
+- Control flow (switch, if, do...while)
+
+- User I/O (cin, cout)
+
+- Math library functions (pow, sqrt)
+
+- Error checking (basic exception handling logic)
 
 ### ✅ Requirements
 - C++ compiler (e.g. `g++`, `clang++`)
